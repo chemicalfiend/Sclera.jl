@@ -1,0 +1,12 @@
+name = "Sclera"
+uuid = "bdca0bbb-fb46-4ffc-9c4d-d8b9040772a7"
+authors = ["Pranay Venkatesh <pranay.venkatesh@gmail.com>"]
+version = "0.0.1"
+
+[deps]
+AtomsBase = "a963bdd2-2df7-4f54-a1ee-49d51e6be12a"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
