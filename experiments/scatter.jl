@@ -9,7 +9,8 @@ function scatter_points()
     
     coords = [[1.0, 0.0, 0.0], [10.0, 0.0, 3.0], [5.0, 5.0, 5.0]]
     points = Point3f.(coords)
-    scatter(points)
+    scatter!(points)
+    lines(points)
 
 end
 
