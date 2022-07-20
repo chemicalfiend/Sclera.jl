@@ -55,8 +55,8 @@ function draw_from_chemfiles(fname)
     
     #print(connections)
 
-    scatter(points; markersize=masses)
-    #lines!(connections)
+    scatter!(points; markersize=masses)
+    lines!(connections)
      
 end
 
